@@ -18,7 +18,7 @@ function generarNuevoArray() {
 
 function cargarArrayEnPosVacia() {
   for (let index = 0; index < clientes.length; index++) {
-    if (clientes[index] == 0) {
+    if (clientes[index] === 0) {
       clientes[index] = Math.floor(Math.random() * 2);
       facturacion[index] = Math.floor(Math.random() * 240);
     }
